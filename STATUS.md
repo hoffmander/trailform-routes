@@ -1,19 +1,19 @@
 # Status
 
-## Last session (2026-11-07)
+## Last session (2026-11-08)
 
-- Step 1 built and deployed: https://trailform-routes.vercel.app (Next.js 16, `app/tokens.css`, landing shell, MIT, README). Repo at https://github.com/hoffmander/trailform-routes, connected to Vercel, so pushes to main auto-deploy.
+- Step 2 built and deployed: MapLibre map at https://trailform-routes.vercel.app/create with Topo/Satellite toggle, attribution, MapTiler logo, opens on Colorado. Repo https://github.com/hoffmander/trailform-routes auto-deploys from main.
+- MapTiler key (browser, origin-locked to `trailform-routes.vercel.app` and `localhost`) is in Vercel env and `.env.local` as `NEXT_PUBLIC_MAPTILER_KEY`.
 
 ## Now
 
-- Step 1 done-check waiting on Alex: open the URL on phone and laptop in light and dark, review `app/tokens.css`.
+- Done-checks waiting on Alex: steps 1 and 2 on his phone and laptop, light and dark. Both styles load, toggle works, attribution shows. Review `app/tokens.css`.
 
 ## Blocked
 
 ## Next
 
-- Alex creates a MapTiler account before step 2.
-- Step 2: MapLibre map with MapTiler Outdoor and Satellite, style toggle, opens on Colorado.
+- Step 3: iPhone download spike (sample GPX route handler, test page with Download / Send to GPS app / Open in onX, Alex tests from Safari and Discord's browser, imports into onX and Gaia).
 
 ## Later
 
