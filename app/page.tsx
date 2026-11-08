@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -14,9 +16,9 @@ export default function Home() {
           everyone opens it on their phone and downloads it into onX, Gaia, or
           whatever GPS app they run. No account, no paywall.
         </p>
-        <button type="button" className={styles.primary}>
+        <Link href="/create" className={styles.primary}>
           Create a route
-        </button>
+        </Link>
       </section>
 
       <footer className={styles.footer}>

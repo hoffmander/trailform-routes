@@ -61,6 +61,7 @@ Rule for every step: finish the done-check, update `STATUS.md`, log it, commit. 
 
 - Open Graph and Twitter card tags on the route page, rendered on the server.
 - Image route: MapTiler Static Map from the simplified polyline with start and end markers, wordmark composited with `next/og`, cached per route version.
+- Second MapTiler key, server-only (`MAPTILER_SERVER_KEY`, no `NEXT_PUBLIC_`, stored as sensitive in Vercel), because the browser key is origin-locked and server requests carry no Origin header (confirmed 403 on 2026-11-08). Used here and for geocoding in step 9.
 - Generate the card for one real route in satellite and topo, DM both to Alex. Alex picks.
 - `noindex` on every route page.
 - **Done:** the card renders in Discord light and dark with name, distance, location, difficulty, and the chosen basemap.

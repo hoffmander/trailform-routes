@@ -45,8 +45,12 @@
 }
 
 .primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   align-self: flex-start;
   min-height: var(--tap-min);
+  text-decoration: none;
   padding: var(--space-3) var(--space-6);
   border: 0;
   border-radius: var(--radius-md);
