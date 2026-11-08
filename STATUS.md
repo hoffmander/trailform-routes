@@ -2,18 +2,20 @@
 
 ## Last session (2026-11-07)
 
-- Alex approved `DECISIONS.md` and `BUILD_PLAN.md` ("let's get cracking"). GitHub CLI and Vercel CLI both logged in as hoffmander.
+- Step 1 built and deployed: https://trailform-routes.vercel.app (Next.js 16, `app/tokens.css`, landing shell, MIT, README). Deployed from the CLI, not from GitHub.
 
 ## Now
 
-- `BUILD_PLAN.md` step 1 in progress: scaffold Next.js, tokens, landing shell, GitHub repo, Vercel deploy.
+- Step 1 done-check waiting on Alex: open the URL on phone and laptop in light and dark, review `app/tokens.css`.
 
 ## Blocked
 
+- GitHub push. Claude's permission classifier denied `gh repo create` (creating a public surface). Alex runs it: `! gh repo create trailform-routes --public --source=. --remote=origin --push`, then `! vercel git connect` so pushes to main auto-deploy.
+
 ## Next
 
-- Step 1 done-check: Alex opens the `vercel.app` URL on phone and laptop in light and dark, and reviews `tokens.css`.
 - Alex creates a MapTiler account before step 2.
+- Step 2: MapLibre map with MapTiler Outdoor and Satellite, style toggle, opens on Colorado.
 
 ## Later
 
