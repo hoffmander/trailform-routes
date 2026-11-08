@@ -11,12 +11,24 @@
 !.env.example
 *.pem
 
-# Dependencies and build output
+# Dependencies
 node_modules/
 __pycache__/
 *.pyc
+
+# Next.js build output
+.next/
+out/
 dist/
 build/
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel
+.vercel
+
+# Debug logs
+npm-debug.log*
 
 # Tool scratch
 .playwright-mcp/
