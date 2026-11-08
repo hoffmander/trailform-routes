@@ -2,15 +2,13 @@
 
 ## Last session (2026-11-07)
 
-- Step 1 built and deployed: https://trailform-routes.vercel.app (Next.js 16, `app/tokens.css`, landing shell, MIT, README). Deployed from the CLI, not from GitHub.
+- Step 1 built and deployed: https://trailform-routes.vercel.app (Next.js 16, `app/tokens.css`, landing shell, MIT, README). Repo at https://github.com/hoffmander/trailform-routes, connected to Vercel, so pushes to main auto-deploy.
 
 ## Now
 
 - Step 1 done-check waiting on Alex: open the URL on phone and laptop in light and dark, review `app/tokens.css`.
 
 ## Blocked
-
-- GitHub push. Claude's permission classifier denied `gh repo create` (creating a public surface). Alex runs it: `! gh repo create trailform-routes --public --source=. --remote=origin --push`, then `! vercel git connect` so pushes to main auto-deploy.
 
 ## Next
 
